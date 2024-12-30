@@ -25,6 +25,6 @@ Or, if using GitHub Container Registry:
 
 `docker run --gpus all -p 5001:5001 ghcr.io/pkoli437/segmentation-app/flask-segmentation-app:latest`    (for github container)
 
-Test the API using same curl for Docker
+Test the API using same curl for Docker  
 
-`curl -X POST -F "file=@path/to/your/image.jpg" http://localhost:5001/segment --output segmented_output.png`
+`curl -X POST -F "file=@path/to/your/image.jpg" http://localhost:5001/segment --output segmented_output.png` (Curl command to send requests and interact with API)
